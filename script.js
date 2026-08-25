@@ -27,8 +27,8 @@ const projects = [
     category: "AIRCRAFT • DESIGN",
     summary: "A radio-controlled aircraft project exploring lightweight structure, aerodynamic layout, and practical fabrication.",
     description: "Designed as a hands-on aircraft project, this build required translating an aircraft concept into a flyable RC platform. The project emphasized lightweight construction, component integration, stability, and real-world flight testing.",
-    image: "assets/sopwith-camel.jpg",
-    images: ["assets/sopwith-camel.jpg","assets/sopwith-camel-2.jpg"],
+    image: "assets/sopwith-04.jpg",
+    images: ["assets/sopwith-02.jpg","assets/sopwith-03.jpg"],
     skills: ["Aircraft Design","CAD","Fabrication","Flight Testing"],
     highlights: [["TYPE","RC Aircraft"],["FOCUS","Lightweight Design"],["TEST","Flight Testing"]]
   },
