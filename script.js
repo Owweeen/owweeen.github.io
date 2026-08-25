@@ -16,8 +16,8 @@ const projects = [
     category: "AEROSPACE • TESTING",
     summary: "Design and development work centered around aerodynamic experimentation and test hardware.",
     description: "A hands-on engineering project focused on creating and refining hardware for controlled aerodynamic testing. The work combined CAD, mechanical design decisions, fabrication considerations, and test-driven iteration.",
-    image: "assets/wind-chamber.jpg",
-    images: ["assets/wind-chamber.jpg","assets/wind-chamber-2.jpg"],
+    image: "assets/wind-chamber-cad.jpg",
+    images: ["assets/wind-chamber-01.jpg","assets/wind-chamber-02.jpg"],
     skills: ["SolidWorks","CAD","Aerodynamics","Testing"],
     highlights: [["FOCUS","Aerodynamic Testing"],["ROLE","Design & Development"],["METHOD","Iterative Testing"]]
   },
