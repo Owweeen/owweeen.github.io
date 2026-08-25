@@ -5,8 +5,8 @@ const projects = [
     category: "AEROSPACE • RESEARCH",
     summary: "A research-focused mechanical design project involving aerodynamic hardware and experimental development.",
     description: "This project involved mechanical design and CAD development for an aerospace research system. The work emphasized practical geometry, manufacturability, component integration, and iterative refinement. Some technical details are intentionally omitted because the work is not yet publicly shareable.",
-    image: "assets/wind-profiler-cad.png",
-    images: ["assets/wind-profiler-02.jpg","assets/wind-profiler-01.jpg","assets/wind-profile-results.png"],
+    image: "assets/wind-profiler-cad.jpg",
+    images: ["assets/wind-profiler-02.jpg","assets/wind-profiler-01.jpg","assets/wind-profile-results.jpg"],
     skills: ["SolidWorks","Mechanical Design","CAD","Experimental Testing"],
     highlights: [["ROLE","Undergraduate Researcher"],["PRIMARY TOOL","SolidWorks"],["FOCUS","Mechanical Design"]]
   },
