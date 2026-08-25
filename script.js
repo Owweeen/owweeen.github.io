@@ -38,8 +38,8 @@ const projects = [
     category: "AIAA • AIRCRAFT WORKSHOP",
     summary: "A lightweight RC aircraft designed, built, and flight-tested through an AIAA aircraft workshop.",
     description: "The Nutball was a practical aircraft design and fabrication exercise. The project provided experience with lightweight structures, aerodynamic layout, assembly, control systems, and iterative flight testing.",
-    image: "assets/nutball.jpg",
-    images: ["assets/nutball.jpg","assets/nutball-2.jpg","assets/nutball-3.jpg"],
+    image: "assets/nutball-01.jpg",
+    images: ["assets/nutball-01.jpg","assets/nutball-02.jpg"],
     skills: ["Aircraft Design","Fabrication","Flight Testing","AIAA"],
     highlights: [["YEAR","2025"],["TYPE","RC Aircraft"],["PROCESS","Design → Build → Fly"]]
   },
@@ -49,8 +49,8 @@ const projects = [
     category: "MECHATRONICS • PERSONAL PROJECT",
     summary: "An automated musical instrument integrating mechanical, electrical, and software systems.",
     description: "Designed and built an autonomous system that uses a Raspberry Pi, solenoids, relays, and an air system to play a recorder. The project required mechanical packaging, electrical integration, programming, troubleshooting, and synchronization between hardware and software.",
-    image: "assets/music-maker.jpg",
-    images: ["assets/music-maker.jpg","assets/music-maker-2.jpg","assets/music-maker-3.jpg"],
+    image: "assets/music-maker-03.jpg",
+    images: ["assets/music-maker-02.jpg","assets/music-maker-01.jpg"],
     skills: ["Raspberry Pi","Python","Electronics","Mechanical Design","Prototyping"],
     highlights: [["CONTROLLER","Raspberry Pi"],["ACTUATION","Solenoids"],["SYSTEM","Mechanical + Electrical + Software"]]
   }
