@@ -1,155 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Owen Forbes — Aerospace Engineering portfolio. Mechanical design, aircraft development, prototyping, instrumentation, and testing.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Owen Forbes — Aerospace Engineering portfolio." />
   <title>Owen Forbes | Aerospace Engineering</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container nav">
-      <a class="logo" href="#home">Owen Forbes</a>
-      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
-      <nav class="nav-links">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">OF<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
-        <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a class="nav-github" href="https://github.com/owweeen" target="_blank" rel="noopener">GitHub ↗</a>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main id="home">
-    <section class="hero">
-      <div class="container hero-grid">
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid container">
         <div class="hero-copy">
-          <p class="kicker">AEROSPACE ENGINEERING · NC STATE</p>
-          <h1>Designing and testing<br><span>real engineering systems.</span></h1>
-          <p class="hero-lead">
+          <p class="eyebrow">AEROSPACE ENGINEERING • NC STATE</p>
+          <h1>Designing, building,<br><span>and testing real hardware.</span></h1>
+          <p class="hero-text">
             I'm Owen Forbes, an Aerospace Engineering student focused on mechanical design,
-            aircraft development, prototyping, instrumentation, and experimental testing.
+            CAD, experimental work, and hands-on aerospace systems.
           </p>
-          <div class="hero-buttons">
-            <a class="button button-dark" href="#projects">View projects</a>
-            <a class="button button-light" href="https://github.com/owweeen" target="_blank" rel="noopener">GitHub ↗</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore Projects <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
           </div>
-          <div class="hero-meta">
-            <div><strong>NC State</strong><span>B.S. Aerospace Engineering</span></div>
-            <div><strong>2028</strong><span>Expected graduation</span></div>
-            <div><strong>4.0</strong><span>Current GPA</span></div>
+          <div class="hero-stats">
+            <div><strong>4.0</strong><span>NC State GPA</span></div>
+            <div><strong>CAD</strong><span>Design & modeling</span></div>
+            <div><strong>TEST</strong><span>Build • Fly • Iterate</span></div>
           </div>
         </div>
-        <div class="hero-photo">
-          <img src="assets/sopwith-04.jpg" alt="Sopwith Camel RC aircraft during flight testing">
-          <div class="photo-caption"><span>PROJECT 03</span><strong>Sopwith Camel RC Aircraft</strong></div>
+        <div class="hero-photo-wrap">
+          <div class="photo-frame">
+            <img id="profileImage" src="assets/profile.jpg" alt="Professional portrait of Owen Forbes"
+                 onerror="this.src='assets/profile-placeholder.svg';" />
+          </div>
+          <div class="photo-tag">AEROSPACE ENGINEER<br><span>DESIGN • TEST • ITERATE</span></div>
         </div>
       </div>
+      <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
     </section>
 
-    <section class="intro-strip">
-      <div class="container intro-grid">
-        <p>Selected work</p>
-        <p>Aircraft · Mechanical Systems · Instrumentation · Testing</p>
-      </div>
-    </section>
-
-    <section id="projects" class="section container">
-      <div class="section-title">
+    <section class="section about" id="about">
+      <div class="container two-col">
         <div>
-          <p class="kicker">PORTFOLIO</p>
-          <h2>Selected projects</h2>
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>Curious about how things work.<br><span>Driven to make them better.</span></h2>
         </div>
-        <p class="section-description">A collection of hands-on engineering work spanning aircraft design, mechatronics, experimental facilities, and data collection.</p>
+        <div class="about-copy">
+          <p>
+            I’m an Aerospace Engineering student at North Carolina State University who enjoys
+            turning engineering ideas into physical systems. My experience spans CAD,
+            aircraft design, fabrication, flight testing, and mechanical-electrical integration.
+          </p>
+          <p>
+            I especially enjoy projects where analysis and experimentation meet: designing a
+            component, building it, testing it, learning what failed, and iterating toward a better solution.
+          </p>
+          <a class="text-link" href="#contact">Let's connect →</a>
+        </div>
       </div>
-      <div id="project-grid" class="project-grid"></div>
     </section>
 
-    <section id="skills" class="section skills-section">
+    <section class="section projects" id="projects">
       <div class="container">
-        <div class="section-title">
+        <div class="section-heading">
           <div>
-            <p class="kicker">CAPABILITIES</p>
-            <h2>Skills & tools</h2>
+            <p class="eyebrow">02 / SELECTED WORK</p>
+            <h2>Projects that leave<br><span>the screen.</span></h2>
           </div>
+          <p class="section-intro">A selection of design, modeling, fabrication, and testing work.</p>
         </div>
-        <div class="skills-grid">
-          <div class="skill-card">
-            <span class="skill-index">01</span>
-            <h3>Mechanical Design</h3>
-            <p>CAD development, component design, assemblies, design iteration, fabrication, and practical system integration.</p>
-            <div class="tags"><span>SolidWorks</span><span>Onshape</span><span>CAD</span><span>3D Printing</span></div>
-          </div>
-          <div class="skill-card">
-            <span class="skill-index">02</span>
-            <h3>Aerospace & Testing</h3>
-            <p>Aircraft development, aerodynamic concepts, flight testing, experimental setups, and data-driven refinement.</p>
-            <div class="tags"><span>XFLR5</span><span>Flight Testing</span><span>Instrumentation</span><span>MATLAB</span></div>
-          </div>
-          <div class="skill-card">
-            <span class="skill-index">03</span>
-            <h3>Programming & Hardware</h3>
-            <p>Embedded systems and control hardware used to turn mechanical concepts into working prototypes.</p>
-            <div class="tags"><span>Python</span><span>Raspberry Pi</span><span>ESP32</span><span>Electronics</span></div>
+
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <p class="eyebrow">03 / TOOLKIT</p>
+        <div class="skills-layout">
+          <h2>Tools I use to<br><span>build ideas.</span></h2>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3>CAD & Design</h3>
+              <div class="pills"><span>SolidWorks</span><span>Onshape</span><span>3D Modeling</span><span>Mechanical Design</span></div>
+            </div>
+            <div class="skill-group">
+              <h3>Engineering & Analysis</h3>
+              <div class="pills"><span>MATLAB</span><span>Python</span><span>XFLR5</span><span>Experimental Testing</span></div>
+            </div>
+            <div class="skill-group">
+              <h3>Programming & Systems</h3>
+              <div class="pills"><span>Java</span><span>JavaScript</span><span>Raspberry Pi</span><span>Electronics</span></div>
+            </div>
+            <div class="skill-group">
+              <h3>Fabrication</h3>
+              <div class="pills"><span>3D Printing</span><span>Rapid Prototyping</span><span>Flight Testing</span><span>Hardware Integration</span></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="section container about">
-      <div class="about-heading">
-        <p class="kicker">ABOUT</p>
-        <h2>Hands-on engineering, from concept to test.</h2>
-      </div>
-      <div class="about-copy">
-        <p>
-          I'm an Aerospace Engineering student at North Carolina State University with a strong interest
-          in aircraft design, mechanical systems, and experimental engineering.
-        </p>
-        <p>
-          My project work has taken me from designing and flight-testing small aircraft to building
-          automated test equipment and integrating mechanical, electrical, and software systems.
-          I enjoy the iterative part of engineering: building something, testing it, learning from the result,
-          and improving the design.
-        </p>
-        <p>
-          Outside engineering, I am pursuing a minor in Trumpet Performance and perform in NC State's music ensembles.
-        </p>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container contact-inner">
+    <section class="section contact" id="contact">
+      <div class="container contact-card">
         <div>
-          <p class="kicker">CONTACT</p>
-          <h2>Let's connect.</h2>
-          <p>I'm interested in aerospace and mechanical engineering internships, co-ops, and hands-on design and testing opportunities.</p>
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2>Have a project<br><span>worth building?</span></h2>
         </div>
-        <div class="contact-buttons">
-          <a class="button button-dark" href="mailto:YOUR_EMAIL@example.com">Email me</a>
-          <a class="button button-light" href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a class="button button-light" href="https://github.com/owweeen" target="_blank" rel="noopener">GitHub ↗</a>
+        <div class="contact-details">
+          <p>I’m interested in aerospace and mechanical engineering opportunities involving design, testing, and hands-on development.</p>
+          <a class="contact-email" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com ↗</a>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="assets/Owen_Forbes_Resume.pdf" target="_blank">Resume ↗</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer container">
-    <span>© <span id="year"></span> Owen Forbes</span>
-    <span>Built with GitHub Pages</span>
+  <footer class="footer">
+    <div class="container"><span>© 2026 Owen Forbes</span><span>Built with HTML, CSS & JavaScript</span></div>
   </footer>
 
-  <div class="modal" id="project-modal" aria-hidden="true">
-    <div class="modal-backdrop" data-close-modal></div>
-    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-      <button class="modal-close" data-close-modal aria-label="Close project details">×</button>
-      <div id="modal-content"></div>
-    </div>
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-panel">
+      <button class="modal-close" id="modalClose" aria-label="Close project">×</button>
+      <div class="modal-gallery" id="modalGallery"></div>
+      <div class="modal-content">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-summary" id="modalSummary"></p>
+        <div class="modal-columns">
+          <div>
+            <h3>Overview</h3>
+            <p id="modalDescription"></p>
+          </div>
+          <div>
+            <h3>Skills & Tools</h3>
+            <div class="pills" id="modalSkills"></div>
+          </div>
+        </div>
+        <div class="modal-highlights" id="modalHighlights"></div>
+      </div>
+    </article>
   </div>
 
   <script src="script.js"></script>
