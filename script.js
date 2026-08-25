@@ -1,133 +1,123 @@
 const projects = [
   {
-    number: "01",
+    id: "01",
     title: "Wind Profiler",
-    category: "Experimental Instrumentation",
-    description: "Created an automated wind-profile measurement system using two motors, an ESP32, motor controllers, and a pitot tube. The device travels along a T-slotted bar inside the wind chamber and collects averaged wind-speed data at multiple locations and heights.",
-    short: "Automated measurement system for mapping wind speed throughout a small-scale wind chamber.",
-    image: "assets/wind-profiler-cad.png",
-    gallery: ["assets/wind-profiler-cad.png","assets/wind-profiler-01.jpg","assets/wind-profiler-02.jpg","assets/wind-profile-results.png"],
-    tags: ["ESP32","Pitot Tube","Instrumentation","Data Collection"],
-    facts: ["~150 data points","5 s averaging","5 heights","5 chamber locations"]
+    category: "AEROSPACE • RESEARCH",
+    summary: "A research-focused mechanical design project involving aerodynamic hardware and experimental development.",
+    description: "This project involved mechanical design and CAD development for an aerospace research system. The work emphasized practical geometry, manufacturability, component integration, and iterative refinement. Some technical details are intentionally omitted because the work is not yet publicly shareable.",
+    image: "assets/wind-profiler.jpg",
+    images: ["assets/wind-profiler.jpg","assets/wind-profiler-2.jpg","assets/wind-profiler-3.jpg"],
+    skills: ["SolidWorks","Mechanical Design","CAD","Experimental Testing"],
+    highlights: [["ROLE","Undergraduate Researcher"],["PRIMARY TOOL","SolidWorks"],["FOCUS","Mechanical Design"]]
   },
   {
-    number: "02",
+    id: "02",
     title: "Wind Chamber",
-    category: "Experimental Facility",
-    description: "Designed a wind chamber for testing a small-scale rover. The design considered multiple panel materials, including drywall, polycarbonate, and plywood, and focused on creating a seamless interior to improve airflow through the test section.",
-    short: "Designed and built a small-scale wind chamber for controlled rover testing.",
-    image: "assets/wind-chamber-cad.png",
-    gallery: ["assets/wind-chamber-cad.png","assets/wind-chamber-01.jpg","assets/wind-chamber-02.jpg"],
-    tags: ["CAD","Test Facility","Fabrication","Aerodynamics"],
-    facts: ["Small-scale testing","Multiple panel materials","Seamless interior"]
+    category: "AEROSPACE • TESTING",
+    summary: "Design and development work centered around aerodynamic experimentation and test hardware.",
+    description: "A hands-on engineering project focused on creating and refining hardware for controlled aerodynamic testing. The work combined CAD, mechanical design decisions, fabrication considerations, and test-driven iteration.",
+    image: "assets/wind-chamber.jpg",
+    images: ["assets/wind-chamber.jpg","assets/wind-chamber-2.jpg"],
+    skills: ["SolidWorks","CAD","Aerodynamics","Testing"],
+    highlights: [["FOCUS","Aerodynamic Testing"],["ROLE","Design & Development"],["METHOD","Iterative Testing"]]
   },
   {
-    number: "03",
+    id: "03",
     title: "Sopwith Camel RC Aircraft",
-    category: "Aircraft Design",
-    description: "Developed a scaled R/C aircraft model of the Sopwith Camel using full-scale reference dimensions and imagery to establish accurate geometry and proportions. Conducted flight testing and iterative design refinements to improve stability and control response.",
-    short: "Scaled aircraft design based on historical reference geometry, followed by flight testing and iteration.",
-    image: "assets/sopwith-04.jpg",
-    gallery: ["assets/sopwith-02.jpg","assets/sopwith-01.jpg","assets/sopwith-03.jpg","assets/sopwith-04.jpg"],
-    tags: ["Aircraft Design","CAD","Fabrication","Flight Testing"],
-    facts: ["Scaled reference geometry","R/C aircraft","Iterative flight testing"]
+    category: "AIRCRAFT • DESIGN",
+    summary: "A radio-controlled aircraft project exploring lightweight structure, aerodynamic layout, and practical fabrication.",
+    description: "Designed as a hands-on aircraft project, this build required translating an aircraft concept into a flyable RC platform. The project emphasized lightweight construction, component integration, stability, and real-world flight testing.",
+    image: "assets/sopwith-camel.jpg",
+    images: ["assets/sopwith-camel.jpg","assets/sopwith-camel-2.jpg"],
+    skills: ["Aircraft Design","CAD","Fabrication","Flight Testing"],
+    highlights: [["TYPE","RC Aircraft"],["FOCUS","Lightweight Design"],["TEST","Flight Testing"]]
   },
   {
-    number: "04",
+    id: "04",
     title: "Nutball RC Aircraft",
-    category: "Aircraft Design & Testing",
-    description: "Created small Nutball-style aircraft and conducted flight testing to evaluate the design and guide improvements. The project included fabrication with lightweight materials, assembly, test flights, and iterative refinements.",
-    short: "Designed and flight-tested small Nutball-style aircraft with iterative refinements.",
-    image: "assets/nutball-01.jpg",
-    gallery: ["assets/nutball-01.jpg","assets/nutball-02.jpg"],
-    tags: ["Aircraft Design","Fabrication","Flight Testing","Iteration"],
-    facts: ["Small-scale aircraft","Flight testing","Iterative design"]
+    category: "AIAA • AIRCRAFT WORKSHOP",
+    summary: "A lightweight RC aircraft designed, built, and flight-tested through an AIAA aircraft workshop.",
+    description: "The Nutball was a practical aircraft design and fabrication exercise. The project provided experience with lightweight structures, aerodynamic layout, assembly, control systems, and iterative flight testing.",
+    image: "assets/nutball.jpg",
+    images: ["assets/nutball.jpg","assets/nutball-2.jpg","assets/nutball-3.jpg"],
+    skills: ["Aircraft Design","Fabrication","Flight Testing","AIAA"],
+    highlights: [["YEAR","2025"],["TYPE","RC Aircraft"],["PROCESS","Design → Build → Fly"]]
   },
   {
-    number: "05",
+    id: "05",
     title: "Autonomous Mechanical Music Maker",
-    category: "Mechatronics",
-    description: "Designed and built an autonomous music-making system using a Raspberry Pi, solenoids, and an air pump to play a recorder automatically. The project required integrating mechanical components, electronics, pneumatics, and software into a working prototype.",
-    short: "Integrated mechanical, electrical, pneumatic, and software systems into an autonomous instrument.",
-    image: "assets/music-maker-03.jpg",
-    gallery: ["assets/music-maker-01.jpg","assets/music-maker-02.jpg","assets/music-maker-03.jpg"],
-    tags: ["Raspberry Pi","Solenoids","Pneumatics","Python"],
-    facts: ["16 solenoids","Raspberry Pi","Automated control"]
+    category: "MECHATRONICS • PERSONAL PROJECT",
+    summary: "An automated musical instrument integrating mechanical, electrical, and software systems.",
+    description: "Designed and built an autonomous system that uses a Raspberry Pi, solenoids, relays, and an air system to play a recorder. The project required mechanical packaging, electrical integration, programming, troubleshooting, and synchronization between hardware and software.",
+    image: "assets/music-maker.jpg",
+    images: ["assets/music-maker.jpg","assets/music-maker-2.jpg","assets/music-maker-3.jpg"],
+    skills: ["Raspberry Pi","Python","Electronics","Mechanical Design","Prototyping"],
+    highlights: [["CONTROLLER","Raspberry Pi"],["ACTUATION","Solenoids"],["SYSTEM","Mechanical + Electrical + Software"]]
   }
 ];
 
-const grid = document.getElementById("project-grid");
-const modal = document.getElementById("project-modal");
-const modalContent = document.getElementById("modal-content");
+const grid = document.getElementById("projectGrid");
+const modal = document.getElementById("projectModal");
+const gallery = document.getElementById("modalGallery");
+const modalTitle = document.getElementById("modalTitle");
+const modalCategory = document.getElementById("modalCategory");
+const modalSummary = document.getElementById("modalSummary");
+const modalDescription = document.getElementById("modalDescription");
+const modalSkills = document.getElementById("modalSkills");
+const modalHighlights = document.getElementById("modalHighlights");
 
-grid.innerHTML = projects.map((p, i) => `
-  <article class="project-card" data-index="${i}" tabindex="0" role="button" aria-label="View details for ${p.title}">
-    <div class="project-image">
-      <img src="${p.image}" alt="${p.title}">
-    </div>
+function imageOrPlaceholder(src, alt) {
+  return `<img src="${src}" alt="${alt}" onerror="this.src='assets/project-placeholder.svg';">`;
+}
+
+projects.forEach((p, i) => {
+  const card = document.createElement("article");
+  card.className = "project-card" + (i === 0 ? " featured" : "");
+  card.innerHTML = `
+    <div class="project-image">${imageOrPlaceholder(p.image, p.title)}</div>
     <div class="project-info">
-      <div class="project-number">${p.number} / ${p.category}</div>
+      <div class="project-number">${p.id} / ${p.category}</div>
       <h3>${p.title}</h3>
-      <p>${p.short}</p>
-      <div class="tags">${p.tags.map(t => `<span>${t}</span>`).join("")}</div>
-      <div class="project-more">View project details →</div>
-    </div>
-  </article>
-`).join("");
+      <p>${p.summary}</p>
+      <div class="project-link">VIEW PROJECT ↗</div>
+    </div>`;
+  card.addEventListener("click", () => openProject(p));
+  grid.appendChild(card);
+});
 
-function openProject(index){
-  const p = projects[index];
-  modalContent.innerHTML = `
-    <div class="modal-header">
-      <img src="${p.image}" alt="${p.title}">
-      <div class="modal-title">
-        <p class="kicker">${p.number} / ${p.category}</p>
-        <h2>${p.title}</h2>
-        <p>${p.short}</p>
-      </div>
-    </div>
-    <div class="modal-body">
-      <h3>Project overview</h3>
-      <p>${p.description}</p>
-      <div class="modal-facts">${p.facts.map(f => `<span>${f}</span>`).join("")}</div>
-      <div class="modal-gallery">
-        ${p.gallery.map((src, i) => `<img src="${src}" alt="${p.title} project image ${i+1}" loading="lazy">`).join("")}
-      </div>
-    </div>
-  `;
+function openProject(p) {
+  modalCategory.textContent = p.category;
+  modalTitle.textContent = p.title;
+  modalSummary.textContent = p.summary;
+  modalDescription.textContent = p.description;
+
+  modalSkills.innerHTML = p.skills.map(s => `<span>${s}</span>`).join("");
+  modalHighlights.innerHTML = p.highlights.map(h => `<div class="highlight"><strong>${h[0]}</strong><span>${h[1]}</span></div>`).join("");
+
+  gallery.innerHTML = p.images.map((src, i) =>
+    `<figure><a href="${src}" target="_blank" rel="noopener">${imageOrPlaceholder(src, p.title + " project image")}</a></figure>`
+  ).join("");
+
   modal.classList.add("open");
-  modal.setAttribute("aria-hidden","false");
+  modal.setAttribute("aria-hidden", "false");
   document.body.classList.add("modal-open");
 }
 
-function closeModal(){
+function closeProject() {
   modal.classList.remove("open");
-  modal.setAttribute("aria-hidden","true");
+  modal.setAttribute("aria-hidden", "true");
   document.body.classList.remove("modal-open");
 }
 
-document.querySelectorAll(".project-card").forEach(card => {
-  card.addEventListener("click", () => openProject(Number(card.dataset.index)));
-  card.addEventListener("keydown", e => {
-    if(e.key === "Enter" || e.key === " ") {
-      e.preventDefault();
-      openProject(Number(card.dataset.index));
-    }
-  });
+document.getElementById("modalClose").addEventListener("click", closeProject);
+document.querySelector(".modal-backdrop").addEventListener("click", closeProject);
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeProject();
 });
 
-document.querySelectorAll("[data-close-modal]").forEach(el => el.addEventListener("click", closeModal));
-document.addEventListener("keydown", e => { if(e.key === "Escape") closeModal(); });
-
-const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
-menuToggle.addEventListener("click", () => {
-  const open = navLinks.classList.toggle("open");
-  menuToggle.setAttribute("aria-expanded", open);
+document.getElementById("menuBtn").addEventListener("click", () => {
+  document.getElementById("navLinks").classList.toggle("show");
 });
-navLinks.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
-  navLinks.classList.remove("open");
-  menuToggle.setAttribute("aria-expanded","false");
-}));
-
-document.getElementById("year").textContent = new Date().getFullYear();
+document.querySelectorAll("#navLinks a").forEach(a => {
+  a.addEventListener("click", () => document.getElementById("navLinks").classList.remove("show"));
+});
