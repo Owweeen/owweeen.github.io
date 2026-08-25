@@ -6,7 +6,7 @@ const projects = [
     summary: "A research-focused mechanical design project involving aerodynamic hardware and experimental development.",
     description: "This project involved mechanical design and CAD development for an aerospace research system. The work emphasized practical geometry, manufacturability, component integration, and iterative refinement. Some technical details are intentionally omitted because the work is not yet publicly shareable.",
     image: "assets/wind-profiler-cad.jpg",
-    images: ["assets/wind-profiler-02.jpg","assets/wind-profiler-01.jpg","assets/wind-profile-results.jpg"],
+    images: ["assets/wind-profiler-cad.jpg","assets/wind-profiler-02.jpg","assets/wind-profile-results.jpg"],
     skills: ["SolidWorks","Mechanical Design","CAD","Experimental Testing"],
     highlights: [["ROLE","Undergraduate Researcher"],["PRIMARY TOOL","SolidWorks"],["FOCUS","Mechanical Design"]]
   },
@@ -17,7 +17,7 @@ const projects = [
     summary: "Design and development work centered around aerodynamic experimentation and test hardware.",
     description: "A hands-on engineering project focused on creating and refining hardware for controlled aerodynamic testing. The work combined CAD, mechanical design decisions, fabrication considerations, and test-driven iteration.",
     image: "assets/wind-chamber-cad.jpg",
-    images: ["assets/wind-chamber-01.jpg","assets/wind-chamber-02.jpg"],
+    images: ["assets/wind-chamber-cad.jpg","assets/wind-chamber-01.jpg","assets/wind-chamber-02.jpg"],
     skills: ["SolidWorks","CAD","Aerodynamics","Testing"],
     highlights: [["FOCUS","Aerodynamic Testing"],["ROLE","Design & Development"],["METHOD","Iterative Testing"]]
   },
@@ -28,7 +28,7 @@ const projects = [
     summary: "A radio-controlled aircraft project exploring lightweight structure, aerodynamic layout, and practical fabrication.",
     description: "Designed as a hands-on aircraft project, this build required translating an aircraft concept into a flyable RC platform. The project emphasized lightweight construction, component integration, stability, and real-world flight testing.",
     image: "assets/sopwith-04.jpg",
-    images: ["assets/sopwith-02.jpg","assets/sopwith-03.jpg"],
+    images: ["assets/sopwith-04.jpg","assets/sopwith-02.jpg","assets/sopwith-03.jpg"],
     skills: ["Aircraft Design","CAD","Fabrication","Flight Testing"],
     highlights: [["TYPE","RC Aircraft"],["FOCUS","Lightweight Design"],["TEST","Flight Testing"]]
   },
@@ -50,7 +50,7 @@ const projects = [
     summary: "An automated musical instrument integrating mechanical, electrical, and software systems.",
     description: "Designed and built an autonomous system that uses a Raspberry Pi, solenoids, relays, and an air system to play a recorder. The project required mechanical packaging, electrical integration, programming, troubleshooting, and synchronization between hardware and software.",
     image: "assets/music-maker-03.jpg",
-    images: ["assets/music-maker-02.jpg","assets/music-maker-01.jpg"],
+    images: ["assets/music-maker-03.jpg","assets/music-maker-02.jpg","assets/music-maker-01.jpg"],
     skills: ["Raspberry Pi","Python","Electronics","Mechanical Design","Prototyping"],
     highlights: [["CONTROLLER","Raspberry Pi"],["ACTUATION","Solenoids"],["SYSTEM","Mechanical + Electrical + Software"]]
   }
