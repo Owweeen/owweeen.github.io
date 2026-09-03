@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: "01",
+    id: "02",
     title: "Wind Profiler",
     category: "AEROSPACE • RESEARCH",
     summary: "A research-focused mechanical design project involving aerodynamic hardware and experimental development.",
@@ -11,7 +11,7 @@ const projects = [
     highlights: [["ROLE","Undergraduate Researcher"],["PRIMARY TOOL","SolidWorks"],["FOCUS","Mechanical Design"]]
   },
   {
-    id: "02",
+    id: "01",
     title: "Wind Chamber",
     category: "AEROSPACE • TESTING",
     summary: "Design and development work centered around aerodynamic experimentation and test hardware.",
