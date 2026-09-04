@@ -1,16 +1,5 @@
 const projects = [
   {
-    id: "02",
-    title: "Wind Profiler",
-    category: "AEROSPACE • RESEARCH",
-    summary: "A research-focused mechanical design project involving aerodynamic hardware and experimental development.",
-    description: "This project involved mechanical design and CAD development for an aerospace research system. The work emphasized practical geometry, manufacturability, component integration, and iterative refinement. Some technical details are intentionally omitted because the work is not yet publicly shareable.",
-    image: "assets/wind-profiler-cad.jpg",
-    images: ["assets/wind-profiler-cad.jpg","assets/wind-profiler-02.jpg","assets/wind-profile-results.jpg"],
-    skills: ["SolidWorks","Mechanical Design","CAD","Experimental Testing"],
-    highlights: [["ROLE","Undergraduate Researcher"],["PRIMARY TOOL","SolidWorks"],["FOCUS","Mechanical Design"]]
-  },
-  {
     id: "01",
     title: "Wind Chamber",
     category: "AEROSPACE • TESTING",
@@ -20,6 +9,17 @@ const projects = [
     images: ["assets/wind-chamber-cad.jpg","assets/wind-chamber-01.jpg","assets/wind-chamber-02.jpg"],
     skills: ["SolidWorks","CAD","Aerodynamics","Testing"],
     highlights: [["FOCUS","Aerodynamic Testing"],["ROLE","Design & Development"],["METHOD","Iterative Testing"]]
+  },
+  {
+    id: "02",
+    title: "Wind Profiler",
+    category: "AEROSPACE • RESEARCH",
+    summary: "A research-focused mechanical design project involving aerodynamic hardware and experimental development.",
+    description: "This project involved mechanical design and CAD development for an aerospace research system. The work emphasized practical geometry, manufacturability, component integration, and iterative refinement. Some technical details are intentionally omitted because the work is not yet publicly shareable.",
+    image: "assets/wind-profiler-cad.jpg",
+    images: ["assets/wind-profiler-cad.jpg","assets/wind-profiler-02.jpg","assets/wind-profile-results.jpg"],
+    skills: ["SolidWorks","Mechanical Design","CAD","Experimental Testing"],
+    highlights: [["ROLE","Undergraduate Researcher"],["PRIMARY TOOL","SolidWorks"],["FOCUS","Mechanical Design"]]
   },
   {
     id: "03",
